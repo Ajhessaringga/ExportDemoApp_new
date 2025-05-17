@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\TA\\ExportDemoApp_new\\wwwroot\\Rotativa\\Rotatifa.json",
+      "PackagePath": "staticwebassets\\Rotativa\\Rotatifa.json"
+    },
+    {
+      "Id": "C:\\TA\\ExportDemoApp_new\\wwwroot\\Rotativa\\wkhtmltoimage.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltoimage.exe"
+    },
+    {
+      "Id": "C:\\TA\\ExportDemoApp_new\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
+      "Id": "C:\\TA\\ExportDemoApp_new\\wwwroot\\Rotativa\\wkhtmltox-0.12.6-1.msvc2015-win64.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltox-0.12.6-1.msvc2015-win64.exe"
+    },
+    {
+      "Id": "C:\\TA\\ExportDemoApp_new\\wwwroot\\Rotativa\\wkhtmltox.dll",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltox.dll"
+    },
+    {
+      "Id": "C:\\TA\\ExportDemoApp_new\\wwwroot\\css\\site.cs",
+      "PackagePath": "staticwebassets\\css\\site.cs"
+    },
+    {
+      "Id": "C:\\TA\\ExportDemoApp_new\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ExportDemoApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ExportDemoApp.props",
+      "PackagePath": "build\\ExportDemoApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ExportDemoApp.props",
+      "PackagePath": "buildMultiTargeting\\ExportDemoApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ExportDemoApp.props",
+      "PackagePath": "buildTransitive\\ExportDemoApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

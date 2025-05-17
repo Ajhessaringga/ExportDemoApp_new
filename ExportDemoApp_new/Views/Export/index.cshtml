@@ -1,0 +1,44 @@
+@model List<ExportDemoApp.Models.Product>
+@{
+    ViewData["Title"] = "Aplikasi Demo Export";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Aplikasi Demo Export</h1>
+    <div class="card">
+        <div class="card-header">
+            <h2 class="card-title">Daftar Produk</h2>
+        </div>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nama Produk</th>
+                        <th>Stok</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.Id</td>
+                            <td>@product.Name</td>
+                            <td>@product.Stock</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer">
+            <div class="btn-group">
+                <a asp-action="ExportToExcel" class="btn btn-success">
+                    <i class="fas fa-file-excel"></i> Ekspor ke Excel
+                </a>
+                <a asp-action="ExportToPdf" class="btn btn-danger">
+                    <i class="fas fa-file-pdf"></i> Ekspor ke PDF
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
